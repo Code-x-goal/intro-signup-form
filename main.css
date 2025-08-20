@@ -4,12 +4,12 @@
 
 @font-face {
     font-family: pop400;
-    src: url(Poppins-Medium.ttf);
+    src: url(utility/Poppins-Medium.ttf);
     font-weight: 400;
 }
 @font-face {
     font-family: poph1;
-    src: url(Poppins-ExtraBold.ttf);
+    src: url(utility/Poppins-ExtraBold.ttf);
 }
 body{
     background:url(images/bg-intro-mobile.png);
