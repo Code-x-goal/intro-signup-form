@@ -5,7 +5,7 @@ function error(event){
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     const first = document.getElementById("first").value;
     const second =document.getElementById("last").value;
-    const third k= document.getElementById("password").value;
+    const third = document.getElementById("password").value;
     
     if(!emailPattern.test(emailInput.value)){
     document.getElementById("three").style.display='block';
@@ -13,7 +13,7 @@ function error(event){
     document.getElementById('email').style.borderColor="red";
     document.getElementById('Cemail').style.paddingBottom="15px";
     }
-    else{
+    else{ 
         document.getElementById("three").style.display='none';
         document.getElementById('email').style.borderColor="hsl(246, 25%, 77%)";
         document.getElementById("threee").style.display='none';
